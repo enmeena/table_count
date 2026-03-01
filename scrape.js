@@ -1,6 +1,7 @@
 const { chromium } = require("playwright");
 
-const seeds = [85,86,87,88,89,90,91,92,93,94];
+//const seeds = [85,86,87,88,89,90,91,92,93,94];
+const seeds = [57,58,59,60,61,62,63,64,65,66];
 
 async function run() {
   const browser = await chromium.launch();
