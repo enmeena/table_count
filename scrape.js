@@ -9,7 +9,7 @@ async function run() {
   let grandTotal = 0;
 
   for (const seed of seeds) {
-    const url = `https://sanand0.github.io/tdsdata/table_scrape/index.html?seed=${seed}`;
+    const url = `https://sanand0.github.io/tdsdata/js_table/?seed=${seed}`;
     await page.goto(url, { waitUntil: "load" });
 
     // Extract all numbers from all tables
